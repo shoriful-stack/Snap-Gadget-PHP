@@ -164,9 +164,8 @@ input[type="number"] {
   box-sizing: border-box;
   color: #444;
   display: block;
-  float: left;
-  font-size: 27px;
-  height: 38px;
+  font-size: 20px;
+  height: 30px;
   margin-left: 10px;
   text-align: center;
   width: 144px;
