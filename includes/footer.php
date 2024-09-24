@@ -19,7 +19,7 @@
                     <li><a href="faq.html">Customer Service</a></li>
                     <li><a href="#">Privacy Policy</a></li>
                     <li><a href="contact.html"><span>Site Map</span></a></li>
-                    <li><a href="preview.html"><span>Search Terms</span></a></li>
+                    <li><a href="details.php"><span>Search Terms</span></a></li>
                 </ul>
             </div>
             <div class="col_1_of_4 span_1_of_4">
