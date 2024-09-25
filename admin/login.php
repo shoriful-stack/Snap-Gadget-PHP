@@ -1,3 +1,15 @@
+<?php 
+include "../Class/adminLogin.php";
+$obj = new AdminLogin();
+if($_SERVER['REQUEST_METHOD'] == $_POST){
+	$adminUsername = $_POST['adminUsername'];
+	$adminPass = $_POST['adminPass'];
+
+    $checkAdmin = $obj->adminLogin($adminUsername, $adminPass);
+}
+
+?>
+
 <!DOCTYPE html>
 <head>
 <meta charset="utf-8">
@@ -10,10 +22,10 @@
 		<form action="" method="post">
 			<h1>Admin Login</h1>
 			<div>
-				<input type="text" placeholder="Username" required="" name="username"/>
+				<input type="text" placeholder="Username" required="" name="adminUsername"/>
 			</div>
 			<div>
-				<input type="password" placeholder="Password" required="" name="password"/>
+				<input type="password" placeholder="Password" required="" name="adminPass"/>
 			</div>
 			<div>
 				<input type="submit" value="Log in" />

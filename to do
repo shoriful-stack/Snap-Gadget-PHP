@@ -1,0 +1,4 @@
+For admin login
+1. include database,session,format file and session class declared;
+2. create object for database file and format file and in construct method should be accessed;
+3. adminLogin function create, adminUsername and adminPass validation from format files validation class, if input fields are empty then shows the error,on the other hand if input fields are not empty then run a query into database and admin info stored on session.
